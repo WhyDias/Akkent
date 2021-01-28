@@ -1,5 +1,5 @@
 .flex-container {
-    margin-top: 50px;
+    margin: 50px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -7,26 +7,29 @@
 }
 
 .apartment-plan {
-    width: 20%;
-}
-
-.floor-plan {
-    width: 1500px;
-    height: 655px;
-}
-
-.floor-plan img {
-    width: 100%;
-    height: 100%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
 .floor-app {
-    width: 600px;
-    height: 800px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .floor-app img {
-    width: 100%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.floor-plan {
+    max-width: 1500px;
+    max-height: 655px;
+    display: flex;
+    align-items: center;
+}
+
+.floor-plan img {
     height: 100%;
 }
 
@@ -36,4 +39,19 @@
 
 #change-app-plan {
     width: 100%;
+}
+
+@media (max-width:990px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apartment-plan {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
