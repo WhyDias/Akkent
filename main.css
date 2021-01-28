@@ -11,7 +11,8 @@
 }
 
 .floor-plan {
-    width: 60%;
+    width: 1500px;
+    height: 655px;
 }
 
 .floor-plan img {
@@ -20,7 +21,8 @@
 }
 
 .floor-app {
-    width: 20%;
+    width: 600px;
+    height: 800px;
 }
 
 .floor-app img {
