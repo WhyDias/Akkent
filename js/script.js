@@ -1,5 +1,40 @@
 jQuery(document).ready(function($){
 
+$('.button-for-one').on({
+    'click': function(){
+        $('.button-for-a1').hide();
+        $('.button-for-a2').show();
+        $('.button-for-a3').hide();
+        $('.button-for-a4').hide();
+        $('.button-for-a5').show();
+        $('.button-for-a6').hide();
+        $('.button-for-a7').hide();
+    }
+});
+
+$('.button-for-two').on({
+    'click': function(){
+        $('.button-for-a1').show();
+        $('.button-for-a2').hide();
+        $('.button-for-a3').show();
+        $('.button-for-a4').show();
+        $('.button-for-a5').hide();
+        $('.button-for-a6').hide();
+        $('.button-for-a7').show();
+    }
+});
+
+$('.button-for-three').on({
+    'click': function(){
+        $('.button-for-a1').hide();
+        $('.button-for-a2').hide();
+        $('.button-for-a3').hide();
+        $('.button-for-a4').hide();
+        $('.button-for-a5').hide();
+        $('.button-for-a6').hide();
+        $('.button-for-a7').show();
+    }
+});
 $('.button-for-a1').on({
      'click': function(){
          $('#change-app-plan').attr('src','resources/A1.jpg');
@@ -63,3 +98,4 @@ $('.button-for-a7').on({
     }
 });
 });
+
