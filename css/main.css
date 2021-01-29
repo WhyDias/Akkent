@@ -12,19 +12,29 @@
     flex-direction: row;
 }
 
+.apartment-numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .apartment-plan-group1 {
     display: flex;
     flex-direction: row;
+    
 }
 
 .apartment-plan-group2 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .apartment-plan-group3 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .img-plans {
@@ -87,13 +97,13 @@
        width: 100%;
        align-items: center;
    }
-   
-   .apartment-plan-group3 {
-    display: flex;
-    flex-direction: row;
-    max-width: 33%;
-    justify-content: flex-end;
-}
+
+
+    .plans {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     
 }
 
